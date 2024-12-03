@@ -1,0 +1,73 @@
+
+/* Reset */
+body, h1, h2, p, ul, li, a, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #000;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.hero {
+    text-align: center;
+    padding: 5rem 2rem;
+    background: linear-gradient(120deg, #ececec, #d1d1d1);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.gallery, .about, .testimonials, .contact {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
